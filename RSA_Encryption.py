@@ -22,6 +22,10 @@ def is_prime(num):
         return False
     
 #generate prime generates a prime number, this function is used to generate values for p and q.
+
+#the range selected for the random generation of numbers is very small, in reality the numbers would be much larger (upto 10 digits long). 
+
+#since the machine I'm using has limited processing power, this is the highest I could set the range without making the process inefficient.
     
 def generate_prime():
     
